@@ -28,9 +28,13 @@
     padding-bottom: 215px;
 }
 
-.recipes__iframe {
+.recipes__figure {
     margin: 0;
 }
+
+.recipes__iframe {
+    border: none;
+    }
 
 .recipes__video-caption {
     display: flex;
