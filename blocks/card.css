@@ -1,0 +1,44 @@
+.card {
+    max-width: 600px;
+    width: 100%;
+}
+
+.card__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 32px;
+}
+
+.card__list-items {
+    padding: 0;
+}
+
+.card__list-item {
+    display: flex;
+    width: 100%;
+    font-family: Noto Serif, Times New Roman, serif;
+    margin-bottom: 16px;
+}
+
+.card__list-item:last-child {
+    margin: 0;
+}
+
+.card__list-name {
+    flex-basis: content;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.card__list-divider {
+    border-bottom: solid white 1px;
+    flex-basis: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.card__list-price {
+    flex-basis: content;
+    margin: 0;
+}
