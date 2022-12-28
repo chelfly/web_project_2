@@ -17,7 +17,7 @@
 .card__list-item {
     display: flex;
     width: 100%;
-    font-family: Noto Serif, Times New Roman, serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     margin-bottom: 16px;
 }
 
